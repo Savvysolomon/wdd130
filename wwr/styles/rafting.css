@@ -1,10 +1,16 @@
 :root {
-    --primary-color: #4285F4; /* black */
-    --secondary-color: grey; /* grey */
-    --accent1-color: #333; /* yellow */
-    --accent2-color: #ffffff; /* royalblue */
-    --heading-font: "Georgia", "Times New Roman", serif; /* heading font */
-    --body-font: Arial, Helvetica, san-serif; /* body fonts */
+    --primary-color: #4285F4;
+    /* black */
+    --secondary-color: grey;
+    /* grey */
+    --accent1-color: #333;
+    /* yellow */
+    --accent2-color: #ffffff;
+    /* royalblue */
+    --heading-font: "Georgia", "Times New Roman", serif;
+    /* heading font */
+    --body-font: Arial, Helvetica, san-serif;
+    /* body fonts */
 }
 
 * {
@@ -18,7 +24,9 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 840px;
     margin: 0 auto;
 }
@@ -28,18 +36,22 @@ header {
     color: var(--accent2-color);
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav,
+p,
+section,
+article {
     margin: 16px;
     padding: 8px;
 }
@@ -48,8 +60,13 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+.socialmedia img {
+    width: 50px;
+    height: auto;
+}
+
 .hero {
-    position:relative;
+    position: relative;
 }
 
 .hero img {
@@ -88,4 +105,3 @@ article {
     z-index: 999;
     border-radius: 10px;
 }
-
