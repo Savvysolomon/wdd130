@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../../../Documents/BYU/wdd130"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"html.format.enable": true,
+		"css.format.enable": true,
+		"git.confirmSync": false,
+		"explorer.fileNesting.expand": false,
+		"explorer.compactFolders": false,
+		"explorer.decorations.colors": false,
+		"explorer.decorations.badges": false,
+		"explorer.openEditors.minVisible": 0,
+		"explorer.autoOpenDroppedFile": false,
+		"workbench.tree.indent": 25,
+		"fiveServer.port": 5501,
+		"fiveServer.injectBody": false,
+		"liveServer.settings.port": 5504,
+		"chat.agent.enabled": true,
+		"chat.includeReferencedInstructions": true,
+		"chat.useAgentsMdFile": true,
+		"terminal.integrated.initialHint": false
+	}
+}
