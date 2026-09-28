@@ -1,8 +1,9 @@
 :root {
-    --primary-color: #4285F4;
+    --primary-color: #1A56BE;
     --secondary-color: #FFFF00;
-    --accent1-color: #333;
-    --accent2-color: #ffffff;
+    --accent1-color: #333333;
+    --accent2-color: #FFFFFF;
+    --footer-bg-color: #D7C4F2;
     --heading-font: "Georgia", "Times New Roman", serif;
     --body-font: Arial, Helvetica, san-serif;
 }
@@ -46,7 +47,7 @@ header nav ul {
 }
 
 header nav ul li {
-    border-right: 1px solid white;
+    border-right: 1px solid var(--accent2-color);
     padding-right: 10px;
 }
 
@@ -97,7 +98,7 @@ article {
     position: absolute;
     top: 350px;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
     opacity: 0.9;
     border-radius: 10px;
 }
@@ -110,7 +111,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--accent2-color);
 }
 
 .hero article img {
@@ -118,7 +119,7 @@ article {
     width: 125px;
     border: 4px solid var(--secondary-color);
     margin: 20px;
-    box-shadow: 5px 5px 10px #333;
+    box-shadow: 5px 5px 10px var(--accent1-color);
     position: relative;
     z-index: 999;
     border-radius: 10px;
@@ -127,7 +128,7 @@ article {
 .history-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: #F9F9F9;
     border-radius: 10px;
 }
 
@@ -148,7 +149,7 @@ article {
 .adventure-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #fcfcfc;
+    background-color: #FCFCFC;
 }
 
 .adventure-section h2 {
@@ -190,7 +191,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr auto;
     align-items: center;
-    background-color: #d7c4f2;
+    background-color: var(--footer-bg-color);
     padding: 20px 40px;
     margin-top: 40px;
 }
@@ -203,13 +204,13 @@ footer {
 .socialmedia a {
     display: block;
     border: none;
-    background-color: #ffffff;
+    background-color: var(--accent2-color);
     padding: 8px;
     border-radius: 5px;
 }
 
 .socialmedia a:hover {
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 2px #000000;
 }
 
 .socialmedia img {
