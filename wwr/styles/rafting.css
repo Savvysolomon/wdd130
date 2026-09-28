@@ -210,7 +210,8 @@ footer {
 }
 
 .socialmedia a:hover {
-    box-shadow: 5px 5px 2px #000000;
+    box-shadow: 5px 5px 2px #333;
+    opacity: .5;
 }
 
 .socialmedia img {
