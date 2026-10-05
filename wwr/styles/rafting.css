@@ -4,6 +4,8 @@
     --accent1-color: #333333;
     --accent2-color: #FFFFFF;
     --footer-bg-color: #D7C4F2;
+    --bg-light-gray: #F9F9F9;
+    --bg-off-white: #FCFCFC;
     --heading-font: "Georgia", "Times New Roman", serif;
     --body-font: Arial, Helvetica, san-serif;
 }
@@ -59,10 +61,14 @@ header nav a {
     text-decoration: none;
     color: var(--accent2-color);
     font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 header nav a:hover {
     color: var(--secondary-color);
+    background-color: #0b2b66;
 }
 
 h1,
@@ -128,7 +134,8 @@ article {
 .history-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #F9F9F9;
+    background-color: var(--bg-light-gray);
+    /* Cleaned to use root variables */
     border-radius: 10px;
 }
 
@@ -154,7 +161,8 @@ article {
 .adventure-section {
     text-align: center;
     padding: 40px 20px;
-    background-color: #FCFCFC;
+    background-color: var(--bg-off-white);
+    /* Cleaned to use root variables */
 }
 
 .adventure-section h2 {
@@ -381,7 +389,8 @@ footer {
 
 .team-section {
     border: 1px solid #767676;
-    background-color: #FFFFFF;
+    background-color: var(--accent2-color);
+    /* Cleaned to use root variables */
     padding: 24px;
     text-align: center;
     margin: 20px 0;
