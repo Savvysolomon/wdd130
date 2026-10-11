@@ -1,94 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-      content="Explore our white water rafting trips! From family-friendly floats to extreme class V rapids, find your perfect river adventure. Book your spot now! ">
-    <meta name="author" content="Solomon Umoh">
+    <meta name="description" content="Explore our premier whitewater rafting trips! Compare our Salmon River Run, Devil's Chute Challenge, and Snake River Gorge excursions to book your next river adventure.">
+    <meta name="Author" content="Solomon Umoh">
     <link rel="stylesheet" href="styles/rafting.css">
-    <title>Rafting Trips & Packages | White Water Rafting </title>
+    <title>Trips | White Water Rafting </title>
 </head>
-
 <body>
     <header>
         <div class="logo">
-            <img src="images/z-wwr-crossedoars.png" alt="White Water Rafting Logo"
-              title="White Water Rafting Logo">
+        <img src="images/z-wwr-crossedoars.png" alt="White Water Rafting Logo" title="White Water Rafting Logo">
         </div>
+
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trips.html">Trips</a></li>
+            <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-
+    
     <main>
-        <div class="hero">
-            <img src="images/rafting36_1024.jpg" alt="Hero Image of White Water Rafting Adventure">
+    <div class="company-heading">
+        <h1>Choose Your River Adventure</h1>
+        <p>Explore our carefully crafted wilderness excursions designed for every level of paddler.</p>
+    </div>
 
-            <h1>Home - White Water Rafting</h1>
+    <!-- Trip Descriptions -->
+    <section class="trips-grid-section">
+        <div class="history-grid"> <!-- Reuses your three column structural grid perfectly -->
+            <article class="trip-card">
+                <img src="images/rafting10_1024.jpg" alt="Raft traveling down a wide river canyon">
+                <h3>Salmon River Run</h3>
+                <p>A tranquil, multi-day floating journey past historical scenic canyons. Excellent for photography, relaxing wildlife sightings, and beginner families.</p>
+            </article>
 
-            <article>
-                <img src="images/rafting59_600.jpg" alt="Happy client after an exciting raft.">
-                <p>At White Water Rafting, our purpose is to reconnect people with the raw, untamed
-                    beauty of nature through unforgettable river experiences, breaking guests out of
-                    their daily routines to challenge their boundaries and foster a lifelong respect
-                    for our planet's wild waterways. </p>
+            <article class="trip-card">
+                <img src="images/rafting26_600.jpg" alt="Raft crashing through intense white foam">
+                <h3>Devil's Chute Challenge</h3>
+                <p>Get ready to test your paddling grit! Navigate continuous Class IV technical drops and explosive rapids under intense expert supervision.</p>
+            </article>
+
+            <article class="trip-card">
+                <img src="images/rafting47_600.jpg" alt="Scenic overview of snake river gorge">
+                <h3>Snake River Gorge Escape</h3>
+                <p>Our most popular balance of action and relaxation. Includes a riverside gourmet lunch, swimming breaks, and fun Class III splash pools.</p>
             </article>
         </div>
+    </section>
 
-        <section class="history-section">
-            <h2>History</h2>
-            <div class="history-grid">
-                <p>Founded in 2014 by a group of lifelong river guides, White Water Rafting began
-                    with just two secondhand rafts and a passion for sharing the untamed currents of
-                    White River Canyon.</p>
+    <!-- Information Data Table -->
+    <section class="table-section">
+        <h2>Trip Comparison Schedule</h2>
+        <table class="trips-table">
+            <thead>
+                <tr>
+                    <th>Adventure Name</th>
+                    <th>Duration</th>
+                    <th>Skill Level</th>
+                    <th>Includes</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Salmon River Run</td>
+                    <td>1 Full Day</td>
+                    <td>Beginner</td>
+                    <td>Snacks, Guide, Lifevest</td>
+                    <td>N200,000</td>
+                </tr>
+                <tr>
+                    <td>Devil's Chute Challenge</td>
+                    <td>Half Day</td>
+                    <td>Advanced (Class IV)</td>
+                    <td>Helmet, Wetsuit, Snacks</td>
+                    <td>N135,000</td>
+                </tr>
+                <tr>
+                    <td>Snake River Gorge Escape</td>
+                    <td>2 Days (1 Night)</td>
+                    <td>Intermediate</td>
+                    <td>All Meals, Camping Gear</td>
+                    <td>N275,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-                <img src="images/rafting36_1024.jpg"
-                  alt="Hero Image of White Water Rafting Adventure">
+    <!-- Contact CTA Box -->
+    <section class="trips-contact-cta">
+        <h3>Looking for Custom Group Packages or Private Guides?</h3>
+        <p>We offer customized corporate team-building events, family reunions, and scout troop trip discounts.</p>
+        <a href="contact.html" class="cta-button">Contact Our Outfitters</a>
+    </section>
+</main>
 
-                <p>Today, we are proud to have safely guided thousands of thrill-seekers down the
-                    rapids,
-                    turning first-time paddlers into lifelong river enthusiasts.</p>
-            </div>
-        </section>
-
-        <section class="adventure-section">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-grid">
-                <figure>
-                    <img src="images/rafting15_1024.jpg" alt="Salmon River rafting trip">
-                    <figcaption>Pacific Ocean</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting18_600.jpg" alt="Snake River rafting trip">
-                    <figcaption>Missisipi River</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting19_600.jpg" alt="Grand Canyon rafting trip">
-                    <figcaption>Canyon River</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting20_600.jpg" alt="Gauley River rafting trip">
-                    <figcaption>Indian Ocean</figcaption>
-                </figure>
-
-                <figure>
-                    <img src="images/rafting59_600.jpg" alt="Cataract Canyon rafting trip">
-                    <figcaption>Cataract Spring</figcaption>
-                </figure>
-            </div>
-        </section>
-
-    </main>
 
     <footer>
         <p>&copy; 2026 | White Water Rafting Company | Solomon Umoh</p>
